@@ -1,18 +1,10 @@
-
-const getSum = () => {
-
-    const prices = document.querySelectorconst getSumBtn = document.createElement("button");
+const getSumBtn = document.createElement("button");
 getSumBtn.append("Get Total Price");
 document.body.appendChild(getSumBtn);
 
 const getSum = () => {
-//Add your code here
-  
-};
 
-getSumBtn.addEventListener("click", getSum);
-
-All(".price");
+    const prices = document.querySelectorAll(".price");
 
     let total = 0;
 
